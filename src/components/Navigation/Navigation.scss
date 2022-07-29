@@ -1,0 +1,108 @@
+$colorHover: #FE5F1E;
+
+
+.navigation {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 170px;
+
+    .sorting {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 170px;
+    }
+
+    .sorting__text {
+        height: min-content;
+
+        span {
+            width: min-content;
+        }
+
+        span:hover {
+            color: $colorHover;
+        }
+    }
+
+    .subSorting-window {
+        position: relative;
+        width: 132px;
+        height: 136px;
+        background: white;
+        border-radius: 10px;
+        list-style: none;
+        box-shadow: 0px 0px 4px 3px rgba(34, 60, 80, 0.18);
+
+        display: none;
+        flex-direction: column;
+        justify-content: space-around;
+
+        ul {
+            height:136px;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            text-align: center;
+
+            li {
+                height: min-content;
+                border-radius: 10px;
+                font-style: normal;
+                line-height: 17px;
+            }
+
+            li:hover {
+                color: $colorHover;
+                font-weight: 700;
+                cursor: pointer;
+            }
+
+            li.point__active {
+                color:$colorHover;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.categories {
+    max-width:750px;
+    width:100%;
+    height:20px;
+    
+    .categories__inner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 750px;
+        width: 100%;
+        font-weight: 700;
+
+        div.active {
+            color: $colorHover;
+        }
+
+        div {
+            height: min-content;
+        }
+
+        div:hover {
+            color: $colorHover;
+        }
+    }
+}
+
+.sorting {
+    p {
+        span:hover {
+            text-decoration: underline;
+            color: $colorHover;
+        }
+    }
+}
+
+

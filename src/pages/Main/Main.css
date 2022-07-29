@@ -1,0 +1,13 @@
+.main {
+  background-color: white;
+  height: 90vh;
+  margin: 50px;
+  border-radius: 10px;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=Main.css.map */
