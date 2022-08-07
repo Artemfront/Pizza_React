@@ -2,11 +2,15 @@ $colorHover: #FE5F1E;
 
 
 .navigation {
+    height: 100px;
+}
+
+.navigation__inner {
     width:100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 170px;
+    height: 60px;
 
     .sorting {
         display: flex;
@@ -88,6 +92,7 @@ $colorHover: #FE5F1E;
 
         div {
             height: min-content;
+            cursor:pointer;
         }
 
         div:hover {

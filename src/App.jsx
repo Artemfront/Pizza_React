@@ -1,3 +1,4 @@
+import axios from "axios"
 import React from "react"
 import {Routes, Route} from 'react-router-dom'
 import Main from "./pages/Main/Main"
@@ -7,7 +8,8 @@ import Main from "./pages/Main/Main"
 
 
 function App() {
-  const url = 'https://62ddc95379b9f8c30aaeea21.mockapi.io/pizzaList'
+  // const url = "https://62ddc95379b9f8c30aaeea21.mockapi.io/pizzas"
+
 
   return (
     <div className = 'app'>
